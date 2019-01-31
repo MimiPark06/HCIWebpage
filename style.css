@@ -1,0 +1,35 @@
+body {
+  background-color: #485367;
+}
+
+.chrysler-building {
+  height: auto;
+  position: absolute;
+  right: 40px;
+  top: 70px;
+  width: 190px;
+  z-index: 1; 
+}
+
+.clouds {
+  position: absolute;
+  right: 400px;
+  top: 90px;
+}
+
+.cloud-1 {
+  height: 120px;
+  position: absolute;
+  left: 0; 
+  top: 70;
+  z-index: -1;
+}
+
+.cloud-2 {
+  height: 100px;
+  margin-left: -100px;
+  position: absolute;
+  left: 0;
+  top: 130px;
+  z-index: -1;
+}
